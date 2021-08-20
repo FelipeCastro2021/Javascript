@@ -198,3 +198,102 @@
 // for (let valores of nomes) {
 //   console.log(valores)
 // }
+
+// /* <=================== Factory Functions ===================> */
+// const computador = {
+//   gabinete: 'Torre',
+//   peso: 2Kg
+//   velocidadeProcessamento: 2.1Ghz,
+//   tamanhoTela: '21 polegadas'
+//   PadrõesTeclado: {
+//      ABNT: 'português brasileiro sem ç',
+//      ABNT2: 'português brasileiro com ç'
+//   },
+//   ligar: function () {
+//     console.log('Ligando...')
+//   }
+// }
+
+// function criarComputador(
+//   gabinete,
+//   peso,
+//   velocidadeProcessamento,
+//   tamanhoTela,
+//   padroesTeclado
+// ) {
+//   return {
+//     gabinete,
+//     peso,
+//     velocidadeProcessamento,
+//     tamanhoTela,
+//     padroesTeclado,
+//     ligar: function () {
+//       console.log('Iniciando...')
+//     }
+//   }
+// }
+
+// console.log(
+//   criarComputador('Mid Tower', '5Kg', '2.8GHz', '23 polegadas', 'ABNT2')
+// )
+
+/* <=================== Construction Functions ===================> */
+// function Computador(
+//   gabinete,
+//   peso,
+//   velocidadeProcessmaento,
+//   tamanhoTela,
+//   padroesTeclado
+// ) {
+//   ;(this.gabinete = gabinete),
+//     (this.peso = peso),
+//     (this.velocidadeProcessmaento = velocidadeProcessmaento),
+//     (this.tamanhoTela = tamanhoTela),
+//     (this.padroesTeclado = function () {
+//       console.log('Ligando...')
+//     })
+// }
+
+// const computador = new Computador('Mid Tower', 2, '2.8GHz', 17, 'ABNT2')
+// console.log(computador)
+
+/* <=================== Natureza dinâmica de objetos ===================> */
+// const celular = {
+//   preco: 1500,
+//   marca: 'Leeco'
+// }
+
+// celular.tela = 5.8
+// celular.inicio = function () {
+//   console.log('Obrigado por se integrar à melhor marca de celular do mundo.')
+// }
+// delete celular.inicio
+// delete celular.tela
+
+// console.log(celular)
+
+/* <=================== Clonando objetos ===================> */
+// const computador = {
+//   gabinete: 'Torre',
+//   peso: '2Kg',
+//   velocidadeProcessamento: '2.1Ghz',
+//   tamanhoTela: '21 polegadas',
+//   PadrõesTeclado: {
+//     ABNT: 'português brasileiro sem ç',
+//     ABNT2: 'português brasileiro com ç'
+//   },
+//   ligar: function () {
+//     console.log('Ligando...')
+//   }
+// }
+
+// const clone = Object.assign(
+//   {
+//     proprietario: 'Felipe Castro Ferreira'
+//   },
+//   computador
+// )
+
+// console.log(clone)
+
+/* <=================== Math ===================> */
