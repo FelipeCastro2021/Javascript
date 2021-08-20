@@ -202,25 +202,19 @@
 // /* <=================== Factory Functions ===================> */
 // const computador = {
 //   gabinete: 'Torre',
-//   peso: 2Kg
-//   velocidadeProcessamento: 2.1Ghz,
-//   tamanhoTela: '21 polegadas'
+//   peso: '2Kg',
+//   velocidadeProcessamento: '2.1Ghz',
+//   tamanhoTela: '21 polegadas',
 //   PadrõesTeclado: {
-//      ABNT: 'português brasileiro sem ç',
-//      ABNT2: 'português brasileiro com ç'
+//     ABNT: 'português brasileiro sem ç',
+//     ABNT2: 'português brasileiro com ç'
 //   },
 //   ligar: function () {
 //     console.log('Ligando...')
 //   }
 // }
 
-// function criarComputador(
-//   gabinete,
-//   peso,
-//   velocidadeProcessamento,
-//   tamanhoTela,
-//   padroesTeclado
-// ) {
+// function criarComputador(gabinete,peso,velocidadeProcessamento,tamanhoTela,padroesTeclado) {
 //   return {
 //     gabinete,
 //     peso,
@@ -443,19 +437,50 @@
 // console.log(carro)
 
 /* <====== Removendo elementso do array ======> */
-let alfabeto = ['a', 'b', 'c', 'd', 'e']
+// let alfabeto = ['a', 'b', 'c', 'd', 'e']
+// let alfabeto2 = alfabeto
 
-console.log(alfabeto)
+// console.log(alfabeto)
+// // Final
+// alfabeto.pop()
+// console.log(alfabeto)
+// // Início
+// alfabeto.shift()
+// console.log(alfabeto)
+// //Meio
+// alfabeto.splice(2, 1)
+// console.log(alfabeto)
 
-alfabeto.push('f')
-alfabeto.unshift('/')
-alfabeto.splice(3, 0, 'ee')
-console.log(alfabeto)
+/* <====== Esvaziando um Array ======> */
+// let pares = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+// let pares2 = pares
 
-// Final
-alfabeto.pop()
-// Início
-alfabeto.shift()
-//Meio
-alfabeto.splice(2, 1)
-console.log(alfabeto)
+// console.log(pares, pares2)
+
+// pares.length = 0
+// console.log(pares, pares2)
+
+// pares.pop(pares.lenght)
+// console.log(pares, pares2)
+
+// pares.splice(0, pares.lenght)
+// console.log(pares, pares2)
+
+/* <====== Combinando um array ======> */
+// const numeros1 = [{ valor: 5 }, { valor: 7 }, { valor: 15 }]
+// const numeros2 = [4, 5, 6]
+
+// numeros1[0].valor = 1
+// numeros1[1].valor = 2
+// numeros1[2].valor = 3
+
+// /* Combinar valores */
+// let combinado = numeros1.concat(numeros2)
+// console.log(combinado)
+
+// /* Dividir valores */
+// let dividido = combinado.slice(2, 4) // Está pegando os índices 2 e 3
+// dividido = combinado.slice()
+// console.log(dividido)
+
+/* <====== Operador Spread ======> */
