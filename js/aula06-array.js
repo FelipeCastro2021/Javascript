@@ -434,3 +434,28 @@
 // console.log(pessoa)
 
 /* <====== Arrow Function ======> */
+// const carros = [
+//   { nome: 'Gol', marca: 'Fiat', ano: 2019 },
+//   { nome: 'Compass', marca: 'Jeep', ano: 2013 }
+// ]
+
+// let carro = carros.find(carros => carros.ano == '2013')
+// console.log(carro)
+
+/* <====== Removendo elementso do array ======> */
+let alfabeto = ['a', 'b', 'c', 'd', 'e']
+
+console.log(alfabeto)
+
+alfabeto.push('f')
+alfabeto.unshift('/')
+alfabeto.splice(3, 0, 'ee')
+console.log(alfabeto)
+
+// Final
+alfabeto.pop()
+// Início
+alfabeto.shift()
+//Meio
+alfabeto.splice(2, 1)
+console.log(alfabeto)
