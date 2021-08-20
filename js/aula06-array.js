@@ -297,3 +297,140 @@
 // console.log(clone)
 
 /* <=================== Math ===================> */
+// function exibirMaior(max, min) {
+//   for (let i = 0; i < max; i++) {
+//     console.log(Math.floor(Math.random() * (max - min + 1) + min))
+//   }
+// }
+
+// let quadrada = Math.sqrt(81)
+// console.log(quadrada)
+
+// exibirMaior(15, 2)
+
+/* <=================== Strings ===================> */
+// // Tipo primitivo
+// const mensagem = ' Sempre acreditei no meu sonho! '
+// // Tipo objeto
+// const outraMensagem = new String('Nova mensagem!')
+
+// // Comprimento da string
+// console.log(mensagem.length)
+
+// // Verifica se o que digitou existe na String
+// console.log(mensagem.includes('Sempre'))
+
+// // Informa o índice da String objeto
+// console.log(outraMensagem[0])
+
+// // Verifica se a string se inicia com a informação descrita
+// console.log(mensagem.startsWith('acreditei'))
+
+// // Substitui a informação pela passada
+// console.log(mensagem.replace('meu', 'seu'))
+
+// // Retira os espaços excedentes da String
+// console.log(mensagem.trim())
+
+// // A partir do valor passado, irá partir a string num array
+// console.log(mensagem.split(' '))
+
+/* <=================== Template Literal ===================> */
+// const mensagem = `oi, isso é a
+// minha primeira 'string'`
+
+// let nome = 'Felipe'
+
+// const email = `Bom dia, ${nome}.
+
+// Estou falando em nome da empresa tal.
+
+// Você está perdendo a grande oportunidade de melhorar sua vida.
+
+// Entre para o nosso curos e aprenda a ser o melhor programador do mundo.
+
+// Obrigado,
+// Felipe Castro`
+
+// console.log(mensagem)
+// console.log('=====================================')
+// console.log(email)
+
+/* <=================== Template Literal ===================> */
+// const hoje = new Date()
+
+// console.log(hoje)
+
+// const data1 = new Date('August 20 2021 08:57')
+// const data2 = new Date(2021, 07, 20, 8, 57) // Ele começa a contar o mês a partir do zero
+
+// console.log(data1)
+// console.log(data2)
+
+// console.log(date1)
+
+/* <=================== Igualdade de objetos ===================> */
+// function endereco(rua, cidade, CEP) {
+//   this.rua = rua
+//   this.cidade = cidade
+//   this.CEP = CEP
+// }
+
+// const endereco1 = new endereco('Rua das Oliveiras', 'Itaquaquecetuba', 454984)
+// const endereco2 = new endereco('Rua das Oliveiras', 'Itaquaquecetuba', 454984)
+
+// function Igualdade(endereco1, endereco2) {
+//   return (
+//     endereco1.rua === endereco2.rua &&
+//     endereco1.cidade === endereco2.cidade &&
+//     endereco1.CEP === endereco2.CEP
+//   )
+// }
+
+// function temEnderecoMemoriaIgual(endereco1, endereco2) {
+//   return endereco1 === endereco2
+// }
+
+// console.log(Igualdade(endereco1, endereco2))
+// console.log(temEnderecoMemoriaIgual(endereco1, endereco2)) // Não estão alocados no mesmo local na memória
+
+/* <=================== Introdução a arrays ===================> */
+/* <====== Adicionar elementos a um array ======> */
+// const array = [1, 2, 3]
+
+// // Início
+// array.unshift(0)
+
+// console.log(array)
+
+// // Meio
+// array.splice(2, 0, 1.5)
+// console.log(array)
+
+// // Fim
+// array.push(4)
+// console.log(array)
+
+/* <====== Encontrando elementos primitivos ======> */
+// let array = [1, 2, 3, 4]
+// // Procura se o valor inserido no array e informa qual o índice, caso não encontre, retorna -1
+// console.log(array.indexOf(3))
+// // Forma difícil para verificar se aquele elemento existe dentro do array
+// console.log(array.indexOf(3) !== -1)
+// // Forma fácil para verificar se um elemento existe dentro do array com ES6
+// console.log(array.includes(3))
+
+/* <====== Encontrando elementos do tipo de referência ======> */
+// let pessoas = [
+//   { nome: 'Felipe', idade: 18, escolaridade: 'Cursando ensino superior' },
+//   { nome: 'Ryan', idade: 18, escolaridade: 'Cursando ensino superior' },
+//   { nome: 'Toninho', idade: 25, escolaridade: 'Ensino superior completo' }
+// ]
+
+// let pessoa = pessoas.find(function (pessoas) {
+//   return (pessoas.nome = 'Ryan')
+// })
+
+// console.log(pessoa)
+
+/* <====== Arrow Function ======> */
