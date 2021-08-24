@@ -524,9 +524,15 @@
 
 // console.log(juntos)
 
-const recado = 'Fazendo teste com combinação de arrays'
-const separado = recado.split(' ')
-const junto = separado.join('-')
+// const recado = 'Fazendo teste com combinação de arrays'
+// const separado = recado.split(' ')
+// const junto = separado.join('-')
 
-console.log(separado)
-console.log(junto)
+// console.log(separado)
+// console.log(junto)
+
+/* <====================== Recebendo dados (INPUT) ==============================> */
+let idade = prompt('Qual é a sua idade: ', 18)
+
+if (idade >= 18) console.log('Você é maior de idade')
+else console.log('Você é menor de idade')
