@@ -470,6 +470,8 @@
 // const numeros1 = [{ valor: 5 }, { valor: 7 }, { valor: 15 }]
 // const numeros2 = [4, 5, 6]
 
+// console.log(numeros1[1].valor)
+
 // numeros1[0].valor = 1
 // numeros1[1].valor = 2
 // numeros1[2].valor = 3
@@ -483,4 +485,19 @@
 // dividido = combinado.slice()
 // console.log(dividido)
 
-/* <====== Operador Spread ======> */
+/* <====================== Operador Spread ==============================> */
+// const numeros = [1, 2, 3]
+// const alphabet = ['a', 'b', 'c']
+// const combinado = [...numeros, '4', ...alphabet, 'd']
+// console.log(combinado)
+
+// const clonado = [...combinado]
+// console.log(clonado)
+
+// // Atividade
+// const numeros1 = [1, 2, 3]
+// const numeros2 = [4, 5, 6]
+// const combinar = [...numeros1, '%', ...numeros2]
+// const clone = [...combinar]
+
+// console.log(clone)
