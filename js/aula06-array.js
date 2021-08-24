@@ -532,7 +532,15 @@
 // console.log(junto)
 
 /* <====================== Recebendo dados (INPUT) ==============================> */
-let idade = prompt('Qual é a sua idade: ', 18)
+// let idade = prompt('Qual é a sua idade: ', 18)
 
-if (idade >= 18) console.log('Você é maior de idade')
-else console.log('Você é menor de idade')
+// if (idade >= 18) console.log('Você é maior de idade')
+// else console.log('Você é menor de idade')
+
+/* <================== Introdução à manipulação do DOM (Document Object Model) ============================> */
+// const value = (document.getElementById('text').value = 'Texto')
+// const text = (document.getElementById('text').innerText = 'Texto')
+// const HTML = (document.getElementById('text').innerHTML = 'Texto')
+
+// const classe = (document.getElementsByClassName('item')[0].value =
+//   'Funcionando')
