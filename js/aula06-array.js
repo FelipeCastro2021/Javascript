@@ -503,11 +503,30 @@
 // console.log(clone)
 
 /* <====================== For Each ==============================> */
-const numeros = [1, 2, 3, 4, 5, 6]
+// const numeros = [1, 2, 3, 4, 5, 6]
 
-numeros.forEach((numeros, indice) => console.log(numeros, indice))
+// numeros.forEach((numeros, indice) => console.log(numeros, indice))
 
-// for (let percorrer of numeros) console.log(percorrer)
+// // for (let percorrer of numeros) console.log(percorrer)
 
-const pares = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
-pares.forEach(pares => console.log(pares))
+// const pares = [0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+// pares.forEach(pares => console.log(pares))
+
+/* <====================== Combinando arrays ==============================> */
+// const numbers = [0, 1, 2, 3]
+// const alterarArray = numbers.join('.')
+
+// console.log(alterarArray)
+
+// const frase = 'Obrigado por tudo que você vem fazendo pela nossa família!'
+// const separado = frase.split(' ')
+// const juntos = separado.join('-')
+
+// console.log(juntos)
+
+const recado = 'Fazendo teste com combinação de arrays'
+const separado = recado.split(' ')
+const junto = separado.join('-')
+
+console.log(separado)
+console.log(junto)
